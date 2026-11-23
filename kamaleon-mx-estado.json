@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23 07:12 CST",
+ "generado": "2026-11-23 08:02 CST",
  "fuente_origen": "https://iptv-org.github.io/iptv/countries/mx.m3u",
  "leyenda": {
   "e": "verificado=reprodujo hoy + vinculo concreto; oficial_sin_verificar=vinculo concreto, reproduccion no verificada desde el entorno; pendiente=reprodujo, sin vinculo aun; sin_reproduccion=no reprodujo en esta revision (no equivale a caido); origen_no_verificable=origen sin verificar (no es acusacion); paga_o_dudoso=paga o autorizacion dudosa",
@@ -507,8 +507,8 @@
    "r": "no_reprodujo"
   },
   "TeleSaltillo.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
+   "e": "verificado",
+   "r": "reproduce"
   },
   "TeleUV.mx@SD": {
    "e": "sin_reproduccion",
@@ -827,6 +827,15 @@
    "estado": "oficial_sin_verificar",
    "procedencia": "EXACT",
    "evidencia": "sitio oficial https://www.multimedios.com/video/saltillo-tv-en-vivo/v17784 contiene id del stream (5d5d51a4e9a40e25f4a0332c)"
+  },
+  {
+   "id": "TeleSaltillo.mx@SD",
+   "nombre": "Tele Saltillo",
+   "url": "https://live.teve.pro/live/telesaltillo/index.m3u8",
+   "logo": "https://i.imgur.com/PgBtvgO.png",
+   "estado": "verificado",
+   "procedencia": "EXACT",
+   "evidencia": "Official page https://www.zocalo.com.mx/category/video/ directly configures this HLS URL. Decoded 6 seconds externally with ffmpeg return code 0 on 2026-11-23 a"
   },
   {
    "id": "TlaxcalaTV.mx@SD",
