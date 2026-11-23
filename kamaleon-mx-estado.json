@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23 07:00 CST",
+ "generado": "2026-11-23 07:12 CST",
  "fuente_origen": "https://iptv-org.github.io/iptv/countries/mx.m3u",
  "leyenda": {
   "e": "verificado=reprodujo hoy + vinculo concreto; oficial_sin_verificar=vinculo concreto, reproduccion no verificada desde el entorno; pendiente=reprodujo, sin vinculo aun; sin_reproduccion=no reprodujo en esta revision (no equivale a caido); origen_no_verificable=origen sin verificar (no es acusacion); paga_o_dudoso=paga o autorizacion dudosa",
@@ -259,8 +259,8 @@
    "r": "reproduce"
   },
   "ExpresaTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
+   "e": "pendiente",
+   "r": "reproduce"
   },
   "Filmex.mx@SD": {
    "e": "pendiente",
@@ -471,8 +471,8 @@
    "r": "reproduce"
   },
   "SIPSETVCUN81.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
+   "e": "pendiente",
+   "r": "reproduce"
   },
   "SistemaMichoacanodeTV.mx@SD": {
    "e": "pendiente",
