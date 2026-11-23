@@ -1,978 +1,1047 @@
 {
- "generado": "2026-11-23 08:02 CST",
- "fuente_origen": "https://iptv-org.github.io/iptv/countries/mx.m3u",
- "leyenda": {
-  "e": "verificado=reprodujo hoy + vinculo concreto; oficial_sin_verificar=vinculo concreto, reproduccion no verificada desde el entorno; pendiente=reprodujo, sin vinculo aun; sin_reproduccion=no reprodujo en esta revision (no equivale a caido); origen_no_verificable=origen sin verificar (no es acusacion); paga_o_dudoso=paga o autorizacion dudosa",
-  "r": "decodificacion ffmpeg 2s desde servidor fuera de Mexico; no equivale a Roku ni a estabilidad"
- },
- "estados": {
-  "8NTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "15TV.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "AcustikTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "ADN40.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "AlcanceTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "AMXNoticias.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "AntenaTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "AsiSucedeGuanajuato.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "AyMSports.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "Azteca7.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "AztecaDeportesNetwork.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "AztecaInternacional.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "AztecaUno.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "AztecaUno.mx@Plus1": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "B15Fresnillo.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "B15Zacatecas.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "BAMOSTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Bandamax.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "bitMe.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "CaliforniaMediosTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal5.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "Canal5.mx@XETTDT": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "Canal5TVCozumel.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Canal10Cancun.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal10Durango.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "Canal13Bajio.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Campeche.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Chiapas.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Guadalajara.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Michoacan.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Oaxaca.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Puebla.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Tabasco.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal13Tapachula.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal22Nacional.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Canal26.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Canal28.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal30Cintalapa.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Canal33Tijuana.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Canal44.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "CanaldelCongreso451.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "CanalOnce.mx@HD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "CanalParlamentodelCongresodeJalisco.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Capital21.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "CBTVMichoacan.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "CineLatino.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "ClaroCinema.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "ComedyCentralLatinAmerica.us@Panregional": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "ConectaTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "CreaLaTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "DespiertaTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "DisneyChannelLatinAmerica.ar@Mexico": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "DisneyChannelLatinAmerica.ar@North": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "DisneyJrLatinAmerica.ar@North": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "DisneyJrLatinAmerica.ar@NorthHD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "ELatinAmerica.us@Mexico": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "EclipseTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "ElChavoTV.mx@HD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "ElSonorense.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "ESPNLatinAmerica.us@Mexico": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "EstrellaGames.us@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "EstrellaNews.us@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "EstrellaTV.us@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "ExpresaTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Filmex.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "FilmexClasico.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "GikTVMX.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "GoldenPlus.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "GoldenPremier2.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "GoldenPremier.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "HGTVLatinAmerica.us@Panregional": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "IcrtvColima.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "IERTBCSCanal82.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "ILCECanal15SummaSaberes.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "ImagenTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "IngenioTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "ITVDeportes.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "JaliscoTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "JusticiaTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "LasEstrellas.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "LifetimeLatinAmerica.us@Mexico": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "LoboTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "MariaVision.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "MC.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "MexiquenseTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "MilenioTelevision.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "MonteMaria.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "MTVLatinAmerica.us@Panregional": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "MultimediosBajio.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosCDMX.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosCiudadJuarez.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosGuadalajara.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosLaguna.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosMonterrey.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosPuebla.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultimediosSaltillo.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "MultiPremier.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "MVSTV.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "MyTimeMovieNetwork.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "NationalGeographic.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "NayaritComunica.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "NickJrLatinAmerica.us@Panregional": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "NueveTV.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "Panico.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "PopcornCentral.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "PresumiendoMexico.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "PSN.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "PSNCanal452.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "RadioyTelevisionCrisoldelaAlegria.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Radiotele.mx@SD": {
-   "e": "origen_no_verificable",
-   "r": "sin_probar"
-  },
-  "RalyTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "RCGTV2.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "RCGTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "RTQQueretaro.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "SICOMTelevision.mx@XHPBZCTDT": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "SIPSETV81.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "SIPSETVCUN81.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "SistemaMichoacanodeTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "SkySports1.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "SkySports2.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "SQCSCanal4.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "Super9TV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "SuperChannel12.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TELE4Ojocaliente.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TELE6.bo@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TeleSaltillo.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "TeleUV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TeleYucatan.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TeleFormula.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Telemax.mx@XEWHTDT": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TeleplaySureste.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "Teleritmo.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "ThePetCollective.us@Mexico": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TlaxcalaTV.mx@SD": {
-   "e": "oficial_sin_verificar",
-   "r": "no_reprodujo"
-  },
-  "TlnovelasMexico.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "Tooncast.us@Panregional": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "TransmediaTelevisionMorelia.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TRCTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TUDN.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "TuristikTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVBUAP.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVCuatro41.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVCuatro42.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVCuatro43.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVCuatro44.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVGuanajuato.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVIndependencia.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVLibertad.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVLobo.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVMarLaPaz.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVMarLosCabos.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVMarPuertoVallarta.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVMigrante.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVUG.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVUJAT.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "TVPCuliacan.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVPLosMochis.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVPMazatlan.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "TVPObregon.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "UAATV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "UACJTV.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "UDGTV.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "UltraTVPuebla.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "UMTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "UnisonTV.mx@SD": {
-   "e": "verificado",
-   "r": "reproduce"
-  },
-  "VBMediaTV.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "VisionTelevision.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "WarnerChannel.us@Mexico": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  },
-  "WeatherSpy.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XEJTDT.mx@SD": {
-   "e": "sin_reproduccion",
-   "r": "no_reprodujo"
-  },
-  "XHBZCTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XHFGLTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XHGVTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XHIJTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XHTTGTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XHUNESTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "XHZHZTDT.mx@SD": {
-   "e": "pendiente",
-   "r": "reproduce"
-  },
-  "ZAZ.mx@SD": {
-   "e": "paga_o_dudoso",
-   "r": "sin_probar"
-  }
- },
- "alternativas_verificadas": [
-  {
-   "id": "15TV.mx@SD",
-   "nombre": "15TV",
-   "url": "https://live.teve.pro/live/tvenvivojle/index.m3u8",
-   "logo": "https://i.imgur.com/CZ8LKmA.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://15tv.com.mx/ (campo website de 15TV.mx en iptv-org database) incrusta el player https://live.teve.pro/player/?c=tvenvivojle en portada; es"
-  },
-  {
-   "id": "ADN40.mx@SD",
-   "nombre": "ADN 40 (720p)",
-   "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
-   "logo": "https://i.imgur.com/Og17U9N.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "https://www.adn40.mx/tv-en-vivo contiene id del stream (60b578b060947317de7b57ac)"
-  },
-  {
-   "id": "Canal10Durango.mx@SD",
-   "nombre": "Canal 10 Durango (1080p)",
-   "url": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
-   "logo": "https://i.imgur.com/H34quHQ.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://canal10.com.mx/sitio/ contiene id del stream (canal10durango)"
-  },
-  {
-   "id": "CanaldelCongreso451.mx@SD",
-   "nombre": "Canal del Congreso 45.1",
-   "url": "https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8",
-   "logo": "https://i.imgur.com/xAC6gQO.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://www.canaldelcongreso.gob.mx/ contiene id del stream (1_kd5oiNTTWO0gEOFc431277834)"
-  },
-  {
-   "id": "Capital21.mx@SD",
-   "nombre": "Capital 21 (1080p) [Not 24/7]",
-   "url": "https://video.cdmx.gob.mx/hls/stream.m3u8",
-   "logo": "https://i.imgur.com/8ign49i.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "capital21.cdmx.gob.mx/en-vivo (JS oficial app/en-vivo) referencia exactamente este URL en host oficial video.cdmx.gob.mx; 2026-11-22"
-  },
-  {
-   "id": "EstrellaNews.us@SD",
-   "nombre": "Estrella News (1080p)",
-   "url": "https://estrella-news-oando.amagi.tv/playlist.m3u8",
-   "logo": "https://i.imgur.com/HRrkhLq.png",
-   "estado": "verificado",
-   "procedencia": "STATEMENT",
-   "evidencia": "Amagi press release 2023-04-17: Estrella Media FAST en Amagi (amagi.com/newsroom)"
-  },
-  {
-   "id": "EstrellaTV.us@SD",
-   "nombre": "Estrella TV (1080p)",
-   "url": "https://estrellatv-oando.amagi.tv/playlist.m3u8",
-   "logo": "https://i.imgur.com/IZxjnyp.png",
-   "estado": "verificado",
-   "procedencia": "STATEMENT",
-   "evidencia": "Amagi press release 2023-04-17: Estrella Media FAST en Amagi (amagi.com/newsroom)"
-  },
-  {
-   "id": "IngenioTV.mx@SD",
-   "nombre": "Ingenio TV (720p) [Geo-blocked]",
-   "url": "https://aprende-usea.streaming.media.azure.net/9317ea3f-03a0-4266-9292-ac97a0e41c4d/output-20230609-123537-manifest.ism/manifest(format=m3u8-cmaf).m3u8",
-   "logo": "https://i.imgur.com/pAppH1M.png",
-   "estado": "oficial_sin_verificar",
-   "procedencia": "DOMAIN",
-   "evidencia": "host del stream pertenece al dominio oficial aprende.gob.mx"
-  },
-  {
-   "id": "MultimediosBajio.mx@SD",
-   "nombre": "Multimedios Bajio (720p) [Not 24/7]",
-   "url": "https://mdstrm.com/live-stream-playlist/5d4b0fec848918070128c8cb.m3u8",
-   "logo": "https://i.imgur.com/4IGzNdq.png",
-   "estado": "oficial_sin_verificar",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://www.multimedios.com/video/bajio-tv-en-vivo/v17351 contiene id del stream (5d4b0fec848918070128c8cb)"
-  },
-  {
-   "id": "MultimediosCiudadJuarez.mx@SD",
-   "nombre": "Multimedios Ciudad Juarez (720p) [Not 24/7]",
-   "url": "https://mdstrm.com/live-stream-playlist/5d9e440d675235586a92be7f.m3u8",
-   "logo": "https://i.imgur.com/4IGzNdq.png",
-   "estado": "oficial_sin_verificar",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://www.multimedios.com/video/ciudad-juarez-tv-en-vivo/v19824 contiene id del stream (5d9e440d675235586a92be7f)"
-  },
-  {
-   "id": "MultimediosPuebla.mx@SD",
-   "nombre": "Multimedios Puebla (720p) [Not 24/7]",
-   "url": "https://mdstrm.com/live-stream-playlist/5d56ed29c92dd106ff01543b.m3u8",
-   "logo": "https://i.imgur.com/4IGzNdq.png",
-   "estado": "oficial_sin_verificar",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://www.multimedios.com/video/puebla-tv-en-vivo/v17946 contiene id del stream (5d56ed29c92dd106ff01543b)"
-  },
-  {
-   "id": "MultimediosSaltillo.mx@SD",
-   "nombre": "Multimedios Saltillo (720p) [Not 24/7]",
-   "url": "https://mdstrm.com/live-stream-playlist/5d5d51a4e9a40e25f4a0332c.m3u8",
-   "logo": "https://i.imgur.com/4IGzNdq.png",
-   "estado": "oficial_sin_verificar",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://www.multimedios.com/video/saltillo-tv-en-vivo/v17784 contiene id del stream (5d5d51a4e9a40e25f4a0332c)"
-  },
-  {
-   "id": "TeleSaltillo.mx@SD",
-   "nombre": "Tele Saltillo",
-   "url": "https://live.teve.pro/live/telesaltillo/index.m3u8",
-   "logo": "https://i.imgur.com/PgBtvgO.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "Official page https://www.zocalo.com.mx/category/video/ directly configures this HLS URL. Decoded 6 seconds externally with ffmpeg return code 0 on 2026-11-23 a"
-  },
-  {
-   "id": "TlaxcalaTV.mx@SD",
-   "nombre": "Tlaxcala TV (360p) [Not 24/7]",
-   "url": "https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8",
-   "logo": "https://i.imgur.com/5vaEhfy.png",
-   "estado": "oficial_sin_verificar",
-   "procedencia": "EXACT",
-   "evidencia": "coracyt.gob.mx/television (gobierno Tlaxcala) liga Transmision en vivo a play.html?id=qNmc7nulmq8zPYZE1582752735050, mismo id de stream; 2026-11-22. No reproduj"
-  },
-  {
-   "id": "UDGTV.mx@SD",
-   "nombre": "UDG TV (720p) [Not 24/7]",
-   "url": "https://5fe2654d6127d.streamlock.net:443/44udg/video44udg/playlist.m3u8",
-   "logo": "https://i.imgur.com/QKvINA6.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "udgtv.com (sitio oficial UdeG) inserta iframe conceptoweb-studio.com/radio/video/44udg/ que contiene exactamente este playlist; verificado 2026-11-22, reprodujo"
-  },
-  {
-   "id": "UltraTVPuebla.mx@SD",
-   "nombre": "Ultra TV Puebla (720p) [Not 24/7]",
-   "url": "https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8",
-   "logo": "https://www.ultralaradio.mx/sad/imagenes/sucursales/1.png",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "sitio oficial https://puebla.ultralaradio.mx/ contiene id del stream (telemetrika2)"
-  },
-  {
-   "id": "UnisonTV.mx@SD",
-   "nombre": "Unison TV (1080p) [Not 24/7]",
-   "url": "https://stream.unison.mx/hls/unisontvatem.m3u8",
-   "logo": "https://i.imgur.com/7ixWRId.png",
-   "estado": "verificado",
-   "procedencia": "DOMAIN",
-   "evidencia": "host del stream dentro del dominio oficial unison.mx"
-  }
- ],
- "canales_nuevos": [
-  {
-   "id": "TVUNAM.mx",
-   "nombre": "TV UNAM",
-   "url": "https://5fc584f3f19c9.streamlock.net/tvunam/videotvunam/playlist.m3u8?DVR",
-   "grupo": "Culturales",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "Official source configures this stream, directly or through its embedded player.",
-   "fuentes": [
-    "https://tv.unam.mx/en-vivo/",
-    "https://conceptoweb-studio.com/radio/video/tvunam/"
-   ],
-   "roku_tested": false,
-   "prueba_externa": {
-    "metodo": "ffmpeg media decode",
-    "segundos": 6,
-    "user_agent": "RokuPlus/1.0",
-    "resultado": "returncode=0"
-   },
-   "nota": "External test only. Roku playback and long-term stability unverified."
-  },
-  {
-   "id": "CanalCatorce.mx",
-   "nombre": "Canal Catorce",
-   "url": "https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8",
-   "grupo": "Culturales",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "Official source configures this stream, directly or through its embedded player.",
-   "fuentes": [
-    "https://www.canalcatorce.tv/?c=EnLinea",
-    "https://mxplus.tv/apiv3/channels"
-   ],
-   "roku_tested": false,
-   "prueba_externa": {
-    "metodo": "ffmpeg media decode",
-    "segundos": 6,
-    "user_agent": "RokuPlus/1.0",
-    "resultado": "returncode=0"
-   },
-   "nota": "Web programming may differ from broadcast TV due to rights."
-  },
-  {
-   "id": "MexicoTravelChannel.mx",
-   "nombre": "México Travel Channel",
-   "url": "https://5ca9af4645e15.streamlock.net:443/mexicotravel/videomexicotravel/playlist.m3u8",
-   "grupo": "Documentales",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "Official source configures this stream, directly or through its embedded player.",
-   "fuentes": [
-    "https://mexicotravelchannel.mx/",
-    "https://conceptoweb-studio.com/radio/video/mexicotravel/"
-   ],
-   "roku_tested": false,
-   "prueba_externa": {
-    "metodo": "ffmpeg media decode",
-    "segundos": 6,
-    "user_agent": "RokuPlus/1.0",
-    "resultado": "returncode=0"
-   },
-   "nota": "External test only. Roku playback and long-term stability unverified."
-  },
-  {
-   "id": "QuieroTV.mx",
-   "nombre": "Quiero TV",
-   "url": "https://stream.ontvmx.com/ontv/ghxTYEQmKkB2UJyVuW/playlist.m3u8",
-   "grupo": "Noticias",
-   "estado": "verificado",
-   "procedencia": "EXACT",
-   "evidencia": "Official source configures this stream, directly or through its embedded player.",
-   "fuentes": [
-    "https://quierotv.mx/videoenvivo",
-    "https://ontvmx.com/#/Extra-reprod/11",
-    "https://ontvmx.com/cakephp/Api/channelR/11"
-   ],
-   "roku_tested": false,
-   "prueba_externa": {
-    "metodo": "ffmpeg media decode",
-    "segundos": 6,
-    "user_agent": "RokuPlus/1.0",
-    "resultado": "returncode=0"
-   },
-   "nota": "External test only. Roku playback and long-term stability unverified."
-  }
- ],
- "canales_ocultos": [
-  {
-   "id": "15TV.mx@SD",
-   "alcance": "vista_mx",
-   "motivo": "senal_pendiente",
-   "fecha": "2026-11-23"
-  },
-  {
-   "id": "Canal13Michoacan.mx@SD",
-   "alcance": "vista_mx",
-   "motivo": "senal_pendiente",
-   "fecha": "2026-11-23"
-  }
- ]
+  "generado": "2026-11-23 08:02 CST",
+  "fuente_origen": "https://iptv-org.github.io/iptv/countries/mx.m3u",
+  "leyenda": {
+    "e": "verificado=reprodujo hoy + vinculo concreto; oficial_sin_verificar=vinculo concreto, reproduccion no verificada desde el entorno; pendiente=reprodujo, sin vinculo aun; sin_reproduccion=no reprodujo en esta revision (no equivale a caido); origen_no_verificable=origen sin verificar (no es acusacion); paga_o_dudoso=paga o autorizacion dudosa",
+    "r": "decodificacion ffmpeg 2s desde servidor fuera de Mexico; no equivale a Roku ni a estabilidad"
+  },
+  "estados": {
+    "8NTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "15TV.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "AcustikTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "ADN40.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "AlcanceTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "AMXNoticias.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "AntenaTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "AsiSucedeGuanajuato.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "AyMSports.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "Azteca7.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "AztecaDeportesNetwork.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "AztecaInternacional.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "AztecaUno.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "AztecaUno.mx@Plus1": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "B15Fresnillo.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "B15Zacatecas.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "BAMOSTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Bandamax.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "bitMe.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "CaliforniaMediosTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal5.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "Canal5.mx@XETTDT": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "Canal5TVCozumel.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Canal10Cancun.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal10Durango.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "Canal13Bajio.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Campeche.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Chiapas.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Guadalajara.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Michoacan.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Oaxaca.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Puebla.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Tabasco.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal13Tapachula.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal22Nacional.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Canal26.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Canal28.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal30Cintalapa.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Canal33Tijuana.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Canal44.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "CanaldelCongreso451.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "CanalOnce.mx@HD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "CanalParlamentodelCongresodeJalisco.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Capital21.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "CBTVMichoacan.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "CineLatino.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "ClaroCinema.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "ComedyCentralLatinAmerica.us@Panregional": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "ConectaTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "CreaLaTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "DespiertaTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "DisneyChannelLatinAmerica.ar@Mexico": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "DisneyChannelLatinAmerica.ar@North": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "DisneyJrLatinAmerica.ar@North": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "DisneyJrLatinAmerica.ar@NorthHD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "ELatinAmerica.us@Mexico": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "EclipseTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "ElChavoTV.mx@HD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "ElSonorense.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "ESPNLatinAmerica.us@Mexico": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "EstrellaGames.us@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "EstrellaNews.us@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "EstrellaTV.us@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "ExpresaTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Filmex.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "FilmexClasico.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "GikTVMX.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "GoldenPlus.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "GoldenPremier2.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "GoldenPremier.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "HGTVLatinAmerica.us@Panregional": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "IcrtvColima.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "IERTBCSCanal82.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "ILCECanal15SummaSaberes.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "ImagenTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "IngenioTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "ITVDeportes.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "JaliscoTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "JusticiaTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "LasEstrellas.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "LifetimeLatinAmerica.us@Mexico": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "LoboTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "MariaVision.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "MC.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "MexiquenseTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "MilenioTelevision.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "MonteMaria.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "MTVLatinAmerica.us@Panregional": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "MultimediosBajio.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosCDMX.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosCiudadJuarez.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosGuadalajara.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosLaguna.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosMonterrey.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosPuebla.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultimediosSaltillo.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "MultiPremier.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "MVSTV.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "MyTimeMovieNetwork.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "NationalGeographic.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "NayaritComunica.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "NickJrLatinAmerica.us@Panregional": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "NueveTV.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "Panico.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "PopcornCentral.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "PresumiendoMexico.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "PSN.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "PSNCanal452.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "RadioyTelevisionCrisoldelaAlegria.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Radiotele.mx@SD": {
+      "e": "origen_no_verificable",
+      "r": "sin_probar"
+    },
+    "RalyTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "RCGTV2.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "RCGTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "RTQQueretaro.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "SICOMTelevision.mx@XHPBZCTDT": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "SIPSETV81.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "SIPSETVCUN81.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "SistemaMichoacanodeTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "SkySports1.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "SkySports2.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "SQCSCanal4.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "Super9TV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "SuperChannel12.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TELE4Ojocaliente.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TELE6.bo@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TeleSaltillo.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "TeleUV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TeleYucatan.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TeleFormula.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Telemax.mx@XEWHTDT": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TeleplaySureste.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "Teleritmo.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "ThePetCollective.us@Mexico": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TlaxcalaTV.mx@SD": {
+      "e": "oficial_sin_verificar",
+      "r": "no_reprodujo"
+    },
+    "TlnovelasMexico.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "Tooncast.us@Panregional": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "TransmediaTelevisionMorelia.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TRCTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TUDN.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "TuristikTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVBUAP.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVCuatro41.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVCuatro42.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVCuatro43.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVCuatro44.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVGuanajuato.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVIndependencia.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVLibertad.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVLobo.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVMarLaPaz.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVMarLosCabos.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVMarPuertoVallarta.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVMigrante.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVUG.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVUJAT.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "TVPCuliacan.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVPLosMochis.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVPMazatlan.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "TVPObregon.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "UAATV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "UACJTV.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "UDGTV.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "UltraTVPuebla.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "UMTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "UnisonTV.mx@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "VBMediaTV.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "VisionTelevision.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "WarnerChannel.us@Mexico": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    },
+    "WeatherSpy.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XEJTDT.mx@SD": {
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
+    },
+    "XHBZCTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XHFGLTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XHGVTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XHIJTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XHTTGTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XHUNESTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "XHZHZTDT.mx@SD": {
+      "e": "pendiente",
+      "r": "reproduce"
+    },
+    "ZAZ.mx@SD": {
+      "e": "paga_o_dudoso",
+      "r": "sin_probar"
+    }
+  },
+  "alternativas_verificadas": [
+    {
+      "id": "15TV.mx@SD",
+      "nombre": "15TV",
+      "url": "https://live.teve.pro/live/tvenvivojle/index.m3u8",
+      "logo": "https://i.imgur.com/CZ8LKmA.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://15tv.com.mx/ (campo website de 15TV.mx en iptv-org database) incrusta el player https://live.teve.pro/player/?c=tvenvivojle en portada; es"
+    },
+    {
+      "id": "ADN40.mx@SD",
+      "nombre": "ADN 40 (720p)",
+      "url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
+      "logo": "https://i.imgur.com/Og17U9N.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "https://www.adn40.mx/tv-en-vivo contiene id del stream (60b578b060947317de7b57ac)"
+    },
+    {
+      "id": "Canal10Durango.mx@SD",
+      "nombre": "Canal 10 Durango (1080p)",
+      "url": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
+      "logo": "https://i.imgur.com/H34quHQ.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://canal10.com.mx/sitio/ contiene id del stream (canal10durango)"
+    },
+    {
+      "id": "CanaldelCongreso451.mx@SD",
+      "nombre": "Canal del Congreso 45.1",
+      "url": "https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.1_kd5oiNTTWO0gEOFc431277834.m3u8",
+      "logo": "https://i.imgur.com/xAC6gQO.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://www.canaldelcongreso.gob.mx/ contiene id del stream (1_kd5oiNTTWO0gEOFc431277834)"
+    },
+    {
+      "id": "Capital21.mx@SD",
+      "nombre": "Capital 21 (1080p) [Not 24/7]",
+      "url": "https://video.cdmx.gob.mx/hls/stream.m3u8",
+      "logo": "https://i.imgur.com/8ign49i.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "capital21.cdmx.gob.mx/en-vivo (JS oficial app/en-vivo) referencia exactamente este URL en host oficial video.cdmx.gob.mx; 2026-11-22"
+    },
+    {
+      "id": "EstrellaNews.us@SD",
+      "nombre": "Estrella News (1080p)",
+      "url": "https://estrella-news-oando.amagi.tv/playlist.m3u8",
+      "logo": "https://i.imgur.com/HRrkhLq.png",
+      "estado": "verificado",
+      "procedencia": "STATEMENT",
+      "evidencia": "Amagi press release 2023-04-17: Estrella Media FAST en Amagi (amagi.com/newsroom)"
+    },
+    {
+      "id": "EstrellaTV.us@SD",
+      "nombre": "Estrella TV (1080p)",
+      "url": "https://estrellatv-oando.amagi.tv/playlist.m3u8",
+      "logo": "https://i.imgur.com/IZxjnyp.png",
+      "estado": "verificado",
+      "procedencia": "STATEMENT",
+      "evidencia": "Amagi press release 2023-04-17: Estrella Media FAST en Amagi (amagi.com/newsroom)"
+    },
+    {
+      "id": "IngenioTV.mx@SD",
+      "nombre": "Ingenio TV (720p) [Geo-blocked]",
+      "url": "https://aprende-usea.streaming.media.azure.net/9317ea3f-03a0-4266-9292-ac97a0e41c4d/output-20230609-123537-manifest.ism/manifest(format=m3u8-cmaf).m3u8",
+      "logo": "https://i.imgur.com/pAppH1M.png",
+      "estado": "oficial_sin_verificar",
+      "procedencia": "DOMAIN",
+      "evidencia": "host del stream pertenece al dominio oficial aprende.gob.mx"
+    },
+    {
+      "id": "MultimediosBajio.mx@SD",
+      "nombre": "Multimedios Bajio (720p) [Not 24/7]",
+      "url": "https://mdstrm.com/live-stream-playlist/5d4b0fec848918070128c8cb.m3u8",
+      "logo": "https://i.imgur.com/4IGzNdq.png",
+      "estado": "oficial_sin_verificar",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://www.multimedios.com/video/bajio-tv-en-vivo/v17351 contiene id del stream (5d4b0fec848918070128c8cb)"
+    },
+    {
+      "id": "MultimediosCiudadJuarez.mx@SD",
+      "nombre": "Multimedios Ciudad Juarez (720p) [Not 24/7]",
+      "url": "https://mdstrm.com/live-stream-playlist/5d9e440d675235586a92be7f.m3u8",
+      "logo": "https://i.imgur.com/4IGzNdq.png",
+      "estado": "oficial_sin_verificar",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://www.multimedios.com/video/ciudad-juarez-tv-en-vivo/v19824 contiene id del stream (5d9e440d675235586a92be7f)"
+    },
+    {
+      "id": "MultimediosPuebla.mx@SD",
+      "nombre": "Multimedios Puebla (720p) [Not 24/7]",
+      "url": "https://mdstrm.com/live-stream-playlist/5d56ed29c92dd106ff01543b.m3u8",
+      "logo": "https://i.imgur.com/4IGzNdq.png",
+      "estado": "oficial_sin_verificar",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://www.multimedios.com/video/puebla-tv-en-vivo/v17946 contiene id del stream (5d56ed29c92dd106ff01543b)"
+    },
+    {
+      "id": "MultimediosSaltillo.mx@SD",
+      "nombre": "Multimedios Saltillo (720p) [Not 24/7]",
+      "url": "https://mdstrm.com/live-stream-playlist/5d5d51a4e9a40e25f4a0332c.m3u8",
+      "logo": "https://i.imgur.com/4IGzNdq.png",
+      "estado": "oficial_sin_verificar",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://www.multimedios.com/video/saltillo-tv-en-vivo/v17784 contiene id del stream (5d5d51a4e9a40e25f4a0332c)"
+    },
+    {
+      "id": "TeleSaltillo.mx@SD",
+      "nombre": "Tele Saltillo",
+      "url": "https://live.teve.pro/live/telesaltillo/index.m3u8",
+      "logo": "https://i.imgur.com/PgBtvgO.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official page https://www.zocalo.com.mx/category/video/ directly configures this HLS URL. Decoded 6 seconds externally with ffmpeg return code 0 on 2026-11-23 a"
+    },
+    {
+      "id": "TlaxcalaTV.mx@SD",
+      "nombre": "Tlaxcala TV (360p) [Not 24/7]",
+      "url": "https://vid26.mega00.com:5443/live/streams/qNmc7nulmq8zPYZE1582752735050.m3u8",
+      "logo": "https://i.imgur.com/5vaEhfy.png",
+      "estado": "oficial_sin_verificar",
+      "procedencia": "EXACT",
+      "evidencia": "coracyt.gob.mx/television (gobierno Tlaxcala) liga Transmision en vivo a play.html?id=qNmc7nulmq8zPYZE1582752735050, mismo id de stream; 2026-11-22. No reproduj"
+    },
+    {
+      "id": "UDGTV.mx@SD",
+      "nombre": "UDG TV (720p) [Not 24/7]",
+      "url": "https://5fe2654d6127d.streamlock.net:443/44udg/video44udg/playlist.m3u8",
+      "logo": "https://i.imgur.com/QKvINA6.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "udgtv.com (sitio oficial UdeG) inserta iframe conceptoweb-studio.com/radio/video/44udg/ que contiene exactamente este playlist; verificado 2026-11-22, reprodujo"
+    },
+    {
+      "id": "UltraTVPuebla.mx@SD",
+      "nombre": "Ultra TV Puebla (720p) [Not 24/7]",
+      "url": "https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8",
+      "logo": "https://www.ultralaradio.mx/sad/imagenes/sucursales/1.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "sitio oficial https://puebla.ultralaradio.mx/ contiene id del stream (telemetrika2)"
+    },
+    {
+      "id": "UnisonTV.mx@SD",
+      "nombre": "Unison TV (1080p) [Not 24/7]",
+      "url": "https://stream.unison.mx/hls/unisontvatem.m3u8",
+      "logo": "https://i.imgur.com/7ixWRId.png",
+      "estado": "verificado",
+      "procedencia": "DOMAIN",
+      "evidencia": "host del stream dentro del dominio oficial unison.mx"
+    }
+  ],
+  "canales_nuevos": [
+    {
+      "id": "TVUNAM.mx",
+      "nombre": "TV UNAM",
+      "url": "https://5fc584f3f19c9.streamlock.net/tvunam/videotvunam/playlist.m3u8?DVR",
+      "grupo": "Culturales",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://tv.unam.mx/en-vivo/",
+        "https://conceptoweb-studio.com/radio/video/tvunam/"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 6,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External test only. Roku playback and long-term stability unverified."
+    },
+    {
+      "id": "CanalCatorce.mx",
+      "nombre": "Canal Catorce",
+      "url": "https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8",
+      "grupo": "Culturales",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://www.canalcatorce.tv/?c=EnLinea",
+        "https://mxplus.tv/apiv3/channels"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 6,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "Web programming may differ from broadcast TV due to rights."
+    },
+    {
+      "id": "MexicoTravelChannel.mx",
+      "nombre": "México Travel Channel",
+      "url": "https://5ca9af4645e15.streamlock.net:443/mexicotravel/videomexicotravel/playlist.m3u8",
+      "grupo": "Documentales",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://mexicotravelchannel.mx/",
+        "https://conceptoweb-studio.com/radio/video/mexicotravel/"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 6,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External test only. Roku playback and long-term stability unverified."
+    },
+    {
+      "id": "QuieroTV.mx",
+      "nombre": "Quiero TV",
+      "url": "https://stream.ontvmx.com/ontv/ghxTYEQmKkB2UJyVuW/playlist.m3u8",
+      "grupo": "Noticias",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://quierotv.mx/videoenvivo",
+        "https://ontvmx.com/#/Extra-reprod/11",
+        "https://ontvmx.com/cakephp/Api/channelR/11"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 6,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External test only. Roku playback and long-term stability unverified."
+    },
+    {
+      "id": "CanaldelCongreso452.mx",
+      "nombre": "Canal del Congreso 45.2",
+      "url": "https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.2_kd5oiNTTWO0gEOFc423456787er.m3u8",
+      "grupo": "Legislativos",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://www.canaldelcongreso.gob.mx/",
+        "https://www.canaldelcongreso.gob.mx/api/live-streams/all",
+        "https://ccstreaming.packet.mx/WebRTCAppEE/play.html?id=45.2_kd5oiNTTWO0gEOFc423456787er&playOrder=hls",
+        "https://ccstreaming.packet.mx/WebRTCAppEE/js/embedded-player.js"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 8,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External decode only. Roku playback unverified. Web channel may rebroadcast parliamentary sessions."
+    },
+    {
+      "id": "CanaldelCongreso453.mx",
+      "nombre": "Canal del Congreso 45.3",
+      "url": "https://ccstreaming.packet.mx/WebRTCAppEE/streams/45.3_kd5oiNTTWO0gEOFc875423kf52.m3u8",
+      "grupo": "Legislativos",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://www.canaldelcongreso.gob.mx/",
+        "https://www.canaldelcongreso.gob.mx/api/live-streams/all",
+        "https://ccstreaming.packet.mx/WebRTCAppEE/play.html?id=45.3_kd5oiNTTWO0gEOFc875423kf52&playOrder=hls",
+        "https://ccstreaming.packet.mx/WebRTCAppEE/js/embedded-player.js"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 8,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External decode only. Roku playback unverified. Web channel may rebroadcast parliamentary sessions."
+    },
+    {
+      "id": "TVUAZ.mx",
+      "nombre": "TV UAZ",
+      "url": "https://vs20.live.opencaster.com/tvuaz_b1aa92f9/index.m3u8",
+      "grupo": "Educativos",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://tvuaz.uaz.edu.mx/",
+        "https://new.opencaster.com/player?user=TVUAZ",
+        "https://new.opencaster.com/player/embed?user=TVUAZ"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 10,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0",
+        "advertencias": "H264 startup SPS buffering warning, recovered to decoded video and audio"
+      },
+      "nota": "External decode only. Roku playback and long-term stability unverified."
+    }
+  ],
+  "canales_ocultos": [
+    {
+      "id": "15TV.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-23"
+    },
+    {
+      "id": "Canal13Michoacan.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-23"
+    }
+  ]
 }
