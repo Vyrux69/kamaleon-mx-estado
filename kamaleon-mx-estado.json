@@ -960,5 +960,19 @@
    },
    "nota": "External test only. Roku playback and long-term stability unverified."
   }
+ ],
+ "canales_ocultos": [
+  {
+   "id": "15TV.mx@SD",
+   "alcance": "vista_mx",
+   "motivo": "senal_pendiente",
+   "fecha": "2026-11-23"
+  },
+  {
+   "id": "Canal13Michoacan.mx@SD",
+   "alcance": "vista_mx",
+   "motivo": "senal_pendiente",
+   "fecha": "2026-11-23"
+  }
  ]
 }
