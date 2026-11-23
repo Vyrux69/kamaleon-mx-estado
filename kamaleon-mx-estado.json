@@ -873,5 +873,92 @@
    "procedencia": "DOMAIN",
    "evidencia": "host del stream dentro del dominio oficial unison.mx"
   }
+ ],
+ "canales_nuevos": [
+  {
+   "id": "TVUNAM.mx",
+   "nombre": "TV UNAM",
+   "url": "https://5fc584f3f19c9.streamlock.net/tvunam/videotvunam/playlist.m3u8?DVR",
+   "grupo": "Culturales",
+   "estado": "verificado",
+   "procedencia": "EXACT",
+   "evidencia": "Official source configures this stream, directly or through its embedded player.",
+   "fuentes": [
+    "https://tv.unam.mx/en-vivo/",
+    "https://conceptoweb-studio.com/radio/video/tvunam/"
+   ],
+   "roku_tested": false,
+   "prueba_externa": {
+    "metodo": "ffmpeg media decode",
+    "segundos": 6,
+    "user_agent": "RokuPlus/1.0",
+    "resultado": "returncode=0"
+   },
+   "nota": "External test only. Roku playback and long-term stability unverified."
+  },
+  {
+   "id": "CanalCatorce.mx",
+   "nombre": "Canal Catorce",
+   "url": "https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8",
+   "grupo": "Culturales",
+   "estado": "verificado",
+   "procedencia": "EXACT",
+   "evidencia": "Official source configures this stream, directly or through its embedded player.",
+   "fuentes": [
+    "https://www.canalcatorce.tv/?c=EnLinea",
+    "https://mxplus.tv/apiv3/channels"
+   ],
+   "roku_tested": false,
+   "prueba_externa": {
+    "metodo": "ffmpeg media decode",
+    "segundos": 6,
+    "user_agent": "RokuPlus/1.0",
+    "resultado": "returncode=0"
+   },
+   "nota": "Web programming may differ from broadcast TV due to rights."
+  },
+  {
+   "id": "MexicoTravelChannel.mx",
+   "nombre": "México Travel Channel",
+   "url": "https://5ca9af4645e15.streamlock.net:443/mexicotravel/videomexicotravel/playlist.m3u8",
+   "grupo": "Documentales",
+   "estado": "verificado",
+   "procedencia": "EXACT",
+   "evidencia": "Official source configures this stream, directly or through its embedded player.",
+   "fuentes": [
+    "https://mexicotravelchannel.mx/",
+    "https://conceptoweb-studio.com/radio/video/mexicotravel/"
+   ],
+   "roku_tested": false,
+   "prueba_externa": {
+    "metodo": "ffmpeg media decode",
+    "segundos": 6,
+    "user_agent": "RokuPlus/1.0",
+    "resultado": "returncode=0"
+   },
+   "nota": "External test only. Roku playback and long-term stability unverified."
+  },
+  {
+   "id": "QuieroTV.mx",
+   "nombre": "Quiero TV",
+   "url": "https://stream.ontvmx.com/ontv/ghxTYEQmKkB2UJyVuW/playlist.m3u8",
+   "grupo": "Noticias",
+   "estado": "verificado",
+   "procedencia": "EXACT",
+   "evidencia": "Official source configures this stream, directly or through its embedded player.",
+   "fuentes": [
+    "https://quierotv.mx/videoenvivo",
+    "https://ontvmx.com/#/Extra-reprod/11",
+    "https://ontvmx.com/cakephp/Api/channelR/11"
+   ],
+   "roku_tested": false,
+   "prueba_externa": {
+    "metodo": "ffmpeg media decode",
+    "segundos": 6,
+    "user_agent": "RokuPlus/1.0",
+    "resultado": "returncode=0"
+   },
+   "nota": "External test only. Roku playback and long-term stability unverified."
+  }
  ]
 }
