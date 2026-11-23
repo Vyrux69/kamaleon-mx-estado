@@ -1028,6 +1028,49 @@
         "advertencias": "H264 startup SPS buffering warning, recovered to decoded video and audio"
       },
       "nota": "External decode only. Roku playback and long-term stability unverified."
+    },
+    {
+      "id": "OnceDigital.mx",
+      "nombre": "once.3 Señal digital",
+      "url": "https://vivo.canaloncelive.tv/secureoncedos/oncedigital/playlist.m3u8",
+      "grupo": "Culturales",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://canalonce.mx/en-vivo",
+        "https://canalonce.mx/js/en-vivo.js",
+        "https://mxplus.tv/apiv3/channels"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 8,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "Official web page labels this once.3 digital signal, distinct from Once Mexico Internacional. External decode only. Roku playback unverified."
+    },
+    {
+      "id": "UDGTVNoticias.mx",
+      "nombre": "UDG TV Noticias 44.2",
+      "url": "https://5fe2654d6127d.streamlock.net:443/44udg2/video44udg2/playlist.m3u8",
+      "grupo": "Noticias",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://udgtv.com/44noticias",
+        "https://conceptoweb-studio.com/radio/video/44udg2/"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 8,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External decode only. Roku playback unverified. Distinct official news signal, compared against UDG main channel."
     }
   ],
   "canales_ocultos": [
