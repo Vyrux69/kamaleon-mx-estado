@@ -103,8 +103,8 @@
       "r": "no_reprodujo"
     },
     "Canal10Durango.mx@SD": {
-      "e": "verificado",
-      "r": "reproduce"
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
     },
     "Canal13Bajio.mx@SD": {
       "e": "sin_reproduccion",
@@ -587,12 +587,12 @@
       "r": "no_reprodujo"
     },
     "TVGuanajuato.mx@SD": {
-      "e": "sin_reproduccion",
-      "r": "no_reprodujo"
+      "e": "verificado",
+      "r": "reproduce"
     },
     "TVIndependencia.mx@SD": {
-      "e": "sin_reproduccion",
-      "r": "no_reprodujo"
+      "e": "verificado",
+      "r": "reproduce"
     },
     "TVLibertad.mx@SD": {
       "e": "sin_reproduccion",
@@ -663,8 +663,8 @@
       "r": "reproduce"
     },
     "UnisonTV.mx@SD": {
-      "e": "verificado",
-      "r": "reproduce"
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
     },
     "VBMediaTV.mx@SD": {
       "e": "pendiente",
@@ -743,9 +743,10 @@
       "nombre": "Canal 10 Durango (1080p)",
       "url": "https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8",
       "logo": "https://i.imgur.com/H34quHQ.png",
-      "estado": "verificado",
+      "estado": "oficial_sin_verificar",
       "procedencia": "EXACT",
-      "evidencia": "sitio oficial https://canal10.com.mx/sitio/ contiene id del stream (canal10durango)"
+      "evidencia": "sitio oficial https://canal10.com.mx/sitio/ contiene id del stream (canal10durango)",
+      "nota": "Check externo 24/11: 404 repetido. Vinculo oficial historico; en revision 24/11 la portada oficial ya no muestra player HLS, procedencia vigente NO establecida y sin reemplazo verificado. Swap en pausa, reversible."
     },
     {
       "id": "CanaldelCongreso451.mx@SD",
@@ -869,9 +870,40 @@
       "nombre": "Unison TV (1080p) [Not 24/7]",
       "url": "https://stream.unison.mx/hls/unisontvatem.m3u8",
       "logo": "https://i.imgur.com/7ixWRId.png",
-      "estado": "verificado",
+      "estado": "oficial_sin_verificar",
       "procedencia": "DOMAIN",
-      "evidencia": "host del stream dentro del dominio oficial unison.mx"
+      "evidencia": "host del stream dentro del dominio oficial unison.mx",
+      "nota": "Check externo 24/11: 404 repetido; fuente oficial sigue referenciando este stream, sin reemplazo. Swap en pausa, reversible al recuperar."
+    },
+    {
+      "id": "TVIndependencia.mx@SD",
+      "nombre": "TV Independencia",
+      "url": "https://stream.ontvmx.com/ontv/GBYoqCbAQua7serHzg/playlist.m3u8",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official site embeds ONTV channel53; player API supplies this exact HLS. External decode10s returncode0 on2026-11-24, Roku unverified.",
+      "fuentes": [
+        "https://tvindependencia.com/",
+        "https://tvindependencia.com/envivo/",
+        "https://ontvmx.com/#/Extra-reprod/53",
+        "https://ontvmx.com/cakephp/Api/channelR/53"
+      ],
+      "roku_tested": false
+    },
+    {
+      "id": "TVGuanajuato.mx@SD",
+      "nombre": "TV Guanajuato",
+      "url": "https://stream.ontvmx.com/ontv/yQgzMBK7oFTnXcvu3C/playlist.m3u8",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official site embeds ONTV channel46; player API supplies this exact HLS. External decode10s returncode0 on2026-11-24, Roku unverified.",
+      "fuentes": [
+        "https://tvguanajuato.com/",
+        "https://tvguanajuato.com/envivo/",
+        "https://ontvmx.com/#/Extra-reprod/46",
+        "https://ontvmx.com/cakephp/Api/channelR/46"
+      ],
+      "roku_tested": false
     }
   ],
   "canales_nuevos": [
