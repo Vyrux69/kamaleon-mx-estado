@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-24 14:50 CST",
+  "generado": "2026-11-24 16:38 CST",
   "fuente_origen": "https://iptv-org.github.io/iptv/regions/latam.m3u",
   "leyenda": {
     "e": "verificado: procedencia oficial y decodificacion externa de audio/video durante 10 segundos; no prueba Roku ni estabilidad garantizada",
@@ -21,6 +21,10 @@
     "ElPinguinoTV.cl@SD": {
       "e": "verificado",
       "r": "reproduce"
+    },
+    "LaPuraCremaTelevision.ve@SD": {
+      "e": "verificado",
+      "r": "reproduce"
     }
   },
   "alternativas_verificadas": [
@@ -32,6 +36,11 @@
     {
       "id": "NETTV.ar@SD",
       "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
+      "estado": "verificado"
+    },
+    {
+      "id": "LaPuraCremaTelevision.ve@SD",
+      "url": "https://streaming5.globalhostla.com/rtplive/lapuracrema/playlist.m3u8",
       "estado": "verificado"
     }
   ],
