@@ -1,0 +1,69 @@
+{
+  "generado": "2026-11-24 14:50 CST",
+  "fuente_origen": "https://iptv-org.github.io/iptv/regions/latam.m3u",
+  "leyenda": {
+    "e": "verificado: procedencia oficial y decodificacion externa de audio/video durante 10 segundos; no prueba Roku ni estabilidad garantizada",
+    "r": "reproduce: prueba externa vigente al generar este candidato; no auditoria completa del catalogo"
+  },
+  "estados": {
+    "88Stereo.cr@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "CampoAbiertoTV.cl@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "NETTV.ar@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    },
+    "ElPinguinoTV.cl@SD": {
+      "e": "verificado",
+      "r": "reproduce"
+    }
+  },
+  "alternativas_verificadas": [
+    {
+      "id": "88Stereo.cr@SD",
+      "url": "https://s1.tvdatta.com:3972/live/88stereolive.m3u8",
+      "estado": "verificado"
+    },
+    {
+      "id": "NETTV.ar@SD",
+      "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
+      "estado": "verificado"
+    }
+  ],
+  "canales_nuevos": [
+    {
+      "id": "MusicTVGranada.es",
+      "nombre": "Music TV Granada",
+      "url": "https://cloudvideo.servers10.com:8081/8032/index.m3u8",
+      "grupo": "Música",
+      "logo": "",
+      "estado": "verificado",
+      "pais": "es",
+      "evidencia": "Sitio del emisor enlaza este HLS o su reproductor exacto. Video musical y marca inspeccionados; decodificacion externa 10s correcta.",
+      "fuentes": [
+        "https://musictvgranada.com/"
+      ]
+    },
+    {
+      "id": "SpektraTV.es",
+      "nombre": "SpektraTV",
+      "url": "https://cloudvideo.servers10.com:8081/8026/index.m3u8",
+      "grupo": "Música",
+      "logo": "",
+      "estado": "verificado",
+      "pais": "es",
+      "evidencia": "Sitio del emisor enlaza este HLS o su reproductor exacto. Video musical y marca inspeccionados; decodificacion externa 10s correcta.",
+      "fuentes": [
+        "https://www.spektratv.com/",
+        "https://cloudvideo.servers10.com/public/8026",
+        "https://cloudvideo.servers10.com:2020/VideoPlayer/8026/playerInfo"
+      ]
+    }
+  ],
+  "canales_ocultos": []
+}
