@@ -1159,6 +1159,54 @@
       "alcance": "vista_mx",
       "motivo": "senal_pendiente",
       "fecha": "2026-11-23"
+    },
+    {
+      "id": "EclipseTV.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "NayaritComunica.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "RalyTV.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "SQCSCanal4.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "TELE4Ojocaliente.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "TransmediaTelevisionMorelia.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "TVLibertad.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "XEJTDT.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
     }
   ]
 }
