@@ -1207,6 +1207,54 @@
       "alcance": "vista_mx",
       "motivo": "senal_pendiente",
       "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Campeche.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Guadalajara.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Oaxaca.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Tabasco.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Bajio.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Chiapas.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Puebla.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
+    },
+    {
+      "id": "Canal13Tapachula.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-24"
     }
   ]
 }
