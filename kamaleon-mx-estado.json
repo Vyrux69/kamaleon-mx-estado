@@ -1071,6 +1071,48 @@
         "resultado": "returncode=0"
       },
       "nota": "External decode only. Roku playback unverified. Distinct official news signal, compared against UDG main channel."
+    },
+    {
+      "id": "MXNuestroCine.mx",
+      "nombre": "MX Nuestro Cine 22.2",
+      "url": "https://5fc584f3f19c9.streamlock.net:443/canal222/videocanal222/playlist.m3u8",
+      "grupo": "Cine",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://www.canal22.org.mx/mx_nuestro_cine.html",
+        "https://conceptoweb-studio.com/radio/video/canal222/"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 10,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "Official free web stream. Programming may differ from broadcast due to rights. External decode only, Roku playback unverified."
+    },
+    {
+      "id": "Canal7SLP.mx",
+      "nombre": "Canal 7 SLP",
+      "url": "https://mvtvstream.com:444/live/69e10ca18f819/index.m3u8",
+      "grupo": "Generales",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official source configures this stream, directly or through its embedded player.",
+      "fuentes": [
+        "https://canal7slp.tv/2026/tv-en-vivo/",
+        "https://www.mvtvstream.com/plugin/Live/?c=5dcd94e183ef2&embed=1"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 10,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "Official website embeds this exact stream. External decode only, Roku playback unverified."
     }
   ],
   "canales_ocultos": [
