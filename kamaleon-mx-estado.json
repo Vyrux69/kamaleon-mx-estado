@@ -1145,6 +1145,27 @@
         "resultado": "returncode=0"
       },
       "nota": "Official website embeds this exact stream. External decode only, Roku playback unverified."
+    },
+    {
+      "id": "VIAElCanaldeCelaya.mx",
+      "nombre": "VIA El Canal de Celaya",
+      "url": "https://5f1af61612fb5.streamlock.net:443/celaya/videocelaya/playlist.m3u8",
+      "grupo": "Regionales",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official broadcaster homepage embeds distributor player that configures this exact HLS.",
+      "fuentes": [
+        "https://viaelcanaldecelaya.tv/",
+        "https://conceptoweb-studio.com/radio/video/celaya/"
+      ],
+      "roku_tested": false,
+      "prueba_externa": {
+        "metodo": "ffmpeg media decode",
+        "segundos": 10,
+        "user_agent": "RokuPlus/1.0",
+        "resultado": "returncode=0"
+      },
+      "nota": "External decode and VIA noticias logo visually checked. Roku playback and long-term stability unverified."
     }
   ],
   "canales_ocultos": [
