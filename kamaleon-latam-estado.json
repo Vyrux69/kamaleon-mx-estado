@@ -74,5 +74,18 @@
       ]
     }
   ],
-  "canales_ocultos": []
+  "canales_ocultos": [],
+  "idiomas_no_es": [
+    "TVCamara.br@SD",
+    "TVGazeta.br@SD",
+    "TVSenado.br@SD",
+    "AratuOn.br@SD",
+    "Canal38.br@SD",
+    "CNNBrasil.br@SD",
+    "J3NEWSTV.br@SD",
+    "PlenaTV.br@SD",
+    "SBTNews.br@SD",
+    "STZTV.br@SD",
+    "TimesBrasil.br@SD"
+  ]
 }
