@@ -407,8 +407,8 @@
       "r": "sin_probar"
     },
     "NayaritComunica.mx@SD": {
-      "e": "sin_reproduccion",
-      "r": "no_reprodujo"
+      "e": "verificado",
+      "r": "reproduce"
     },
     "NickJrLatinAmerica.us@Panregional": {
       "e": "paga_o_dudoso",
@@ -1235,12 +1235,6 @@
     },
     {
       "id": "EclipseTV.mx@SD",
-      "alcance": "vista_mx",
-      "motivo": "senal_pendiente",
-      "fecha": "2026-11-24"
-    },
-    {
-      "id": "NayaritComunica.mx@SD",
       "alcance": "vista_mx",
       "motivo": "senal_pendiente",
       "fecha": "2026-11-24"
