@@ -299,8 +299,8 @@
       "r": "reproduce"
     },
     "ILCECanal15SummaSaberes.mx@SD": {
-      "e": "pendiente",
-      "r": "reproduce"
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
     },
     "ImagenTV.mx@SD": {
       "e": "pendiente",
@@ -495,8 +495,8 @@
       "r": "no_reprodujo"
     },
     "SuperChannel12.mx@SD": {
-      "e": "sin_reproduccion",
-      "r": "no_reprodujo"
+      "e": "verificado",
+      "r": "reproduce"
     },
     "TELE4Ojocaliente.mx@SD": {
       "e": "sin_reproduccion",
@@ -587,8 +587,8 @@
       "r": "no_reprodujo"
     },
     "TVGuanajuato.mx@SD": {
-      "e": "verificado",
-      "r": "reproduce"
+      "e": "sin_reproduccion",
+      "r": "no_reprodujo"
     },
     "TVIndependencia.mx@SD": {
       "e": "verificado",
@@ -913,6 +913,20 @@
         "https://tvguanajuato.com/envivo/",
         "https://ontvmx.com/#/Extra-reprod/46",
         "https://ontvmx.com/cakephp/Api/channelR/46"
+      ],
+      "roku_tested": false
+    },
+    {
+      "id": "SuperChannel12.mx@SD",
+      "nombre": "Super Channel 12 (1080p)",
+      "url": "https://live.teve.pro/live/channel12/index.m3u8",
+      "logo": "https://i.imgur.com/dLHIvKz.png",
+      "estado": "verificado",
+      "procedencia": "EXACT",
+      "evidencia": "Official page https://superchannel12.com/tv directly configures this exact HLS URL. External decode returncode=0 on 2026-11-27; captured pixels show the Canal 12 HD “CONTINUAMOS” slate with logo and clock, not an error or black screen.",
+      "nota": "External decode and pixel check only; Roku playback and long-term stability unverified.",
+      "fuentes": [
+        "https://superchannel12.com/tv"
       ],
       "roku_tested": false
     }
@@ -1370,6 +1384,162 @@
       "alcance": "vista_mx",
       "motivo": "senal_pendiente",
       "fecha": "2026-11-24"
+    },
+    {
+      "id": "AyMSports.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "AztecaDeportesNetwork.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "AztecaUno.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "bitMe.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "DespiertaTV.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "DisneyChannelLatinAmerica.ar@North",
+      "alcance": "vista_mx",
+      "motivo": "paga_o_dudoso",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "ELatinAmerica.us@Mexico",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "EstrellaGames.us@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "ILCECanal15SummaSaberes.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "IngenioTV.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "LasEstrellas.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "MVSTV.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "NationalGeographic.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "paga_o_dudoso",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "RadioyTelevisionCrisoldelaAlegria.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "SkySports2.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "Teleritmo.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TUDN.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVBUAP.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVCuatro41.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVCuatro42.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVCuatro43.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVCuatro44.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVGuanajuato.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "TVUJAT.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "WarnerChannel.us@Mexico",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
+    },
+    {
+      "id": "ZAZ.mx@SD",
+      "alcance": "vista_mx",
+      "motivo": "senal_pendiente",
+      "fecha": "2026-11-27"
     }
   ]
 }
